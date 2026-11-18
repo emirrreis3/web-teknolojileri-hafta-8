@@ -92,27 +92,7 @@
 			"response": []
 		},
 		{
-			"name": "5. GET /events/111111",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:3000/events/111111",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"events",
-						"111111"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "6. POST /events (tam body)",
+			"name": "5. POST /events (tam body)",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -140,7 +120,7 @@
 			"response": []
 		},
 		{
-			"name": "7. POST /events (eksik body - sadece title)",
+			"name": "6. POST /events (eksik body - sadece title)",
 			"request": {
 				"method": "POST",
 				"header": [
