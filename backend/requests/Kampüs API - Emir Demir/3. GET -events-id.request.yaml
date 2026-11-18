@@ -1,0 +1,9 @@
+$kind: http-request
+name: 3. GET /events/:id
+url: http://localhost:3000/events/:id
+method: GET
+pathVariables:
+  - key: id
+    value: ""
+    description: GET /events isteğinden dönen _id değerini buraya yapıştırın
+order: 3000

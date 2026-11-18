@@ -1,0 +1,13 @@
+$kind: http-request
+name: 7. POST /events (eksik body - sadece title)
+url: http://localhost:3000/events
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Eksik Etkinlik"
+    }
+order: 7000
